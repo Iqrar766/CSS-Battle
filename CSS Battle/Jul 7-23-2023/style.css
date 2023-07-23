@@ -1,0 +1,30 @@
+.container{
+    width: 400px; /* The width,height and container class is only give for purpos that our style is  look like same as css battle.
+    when playing the css battle dont give width and hight and also container.so in css battle the container class is replecate by body.*/
+    height: 300px;
+    background-color: #998235;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    div{
+    width: 80px;
+    height: 60px;
+    background-color:#0B2429;
+    }
+  .left{
+    border-radius: 0 50px;
+    margin-right:15px;
+  }
+  .middle{
+    height: 100%;
+    width: 10px;
+  }
+  .right{
+    border-radius: 50px 0px;
+    margin-left:15px;
+  }
+  .left,.right{
+    box-shadow : 0 -70px #0B2429, -0 70px #0B2429;
+  }
