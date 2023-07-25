@@ -1,0 +1,26 @@
+    body{
+    background-color: #926927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:110px;
+  }
+  div{
+    width: 30px;
+    height: 250px;
+    background: #F8B140;
+    border-radius: 15px;
+  }
+  div:before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #F8B140;
+    border: 10px solid #926927;
+    border-radius: 50%;
+    translate: -45px 35px; 
+  }
+  .right{
+    rotate : 180deg;
+  }
