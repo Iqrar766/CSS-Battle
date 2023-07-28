@@ -1,0 +1,18 @@
+  body{
+    background: linear-gradient(#F7EC7D 50%, #62306D 50%);
+    display: flex;
+    align-items: center;
+    margin : 0;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #dd6b4d;
+    border-radius: 500%; 
+    background-color : #62306D;
+  }
+  .middle{
+    width: 100px;
+    height: 100px;
+    background-color: #F7EC7D;
+  }
