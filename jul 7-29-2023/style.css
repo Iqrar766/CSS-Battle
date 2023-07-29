@@ -1,0 +1,15 @@
+
+  body{
+    background-color: #E3516E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+    
+  }
+  div {
+    width: 160px;
+    height: 160px;
+    background: #FADE8B;
+    box-shadow : 190px 0 #FADE8B,-190px 0 #FADE8B,0 190px #FADE8B,0 -190px #FADE8B;
+  }
