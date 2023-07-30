@@ -1,0 +1,26 @@
+
+  body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #998235;
+  }
+  #one {
+    width: 30px;
+    height: 160px;
+    border: 29px solid black;
+    background-color: #998235;
+    transform: skew(45deg, 1deg);
+  }
+  #two{
+    width: 30px;
+    height: 200px;
+    background-color :#0B2429;
+    transform: skew(-45deg, -1deg);
+    position: relative;
+    top:10px;
+    bottom: 16px;
+    right:60px;
+    z-index: -1;
+    
+  }
