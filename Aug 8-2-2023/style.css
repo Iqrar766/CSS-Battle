@@ -1,0 +1,16 @@
+
+  body{
+    background-color:#F5D6B4;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  div {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #dd6b4d;
+    position: absolute;
+    bottom: 175;
+    box-shadow: 0 300px #D86F45;
+  }
