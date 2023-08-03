@@ -1,0 +1,31 @@
+body{
+     background-color: #4F77FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .triangle-isosceles {
+  width: 250px;
+  height: 312px;
+  border-radius:50%;
+  position: relative;
+  background: #f3961c;
+  transform: scale(1, 0.5);
+  background: #FFFFFF;
+  bottom:30px
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -50px;
+  left: 82px;
+  width: 0;
+  border-width: 90px 40px 0;
+  border-style: solid;
+  border-color: #FFFFFF transparent;
+  transform: rotate(-2deg)
+}
