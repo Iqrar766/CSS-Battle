@@ -1,0 +1,31 @@
+  body{
+    background-color: #62306D;
+    margin: 0;
+  }
+  div {
+    width: 220px;
+    height: 170px;
+    background: #F7EC7D;
+    position: absolute;
+    right: 0;
+  }
+  .top{
+    clip-path: polygon(8px 46%, 8.5% 26%,14% 10%,18% 0,100% 0%,100% 100%, 0 100%,0 89%,1px 70%,3px 60%);
+  }
+  .bottom{
+    bottom: 0px;
+    width: 180px;
+    height: 180px;
+    clip-path:polygon(0 0,100% 0,100% 100%,22% 100%, 17% 90%,12% 78%,11px 63%,4px 45%,0 27%,0 10%)
+    
+  }
+  .dot{
+    width: 60px;
+    height: 60px;
+    background-color:#F7EC7D;
+    border-radius: 50%;
+    translate: 60px 65px;
+    box-shadow: 220px 0 #62306D;
+  }
+
+
