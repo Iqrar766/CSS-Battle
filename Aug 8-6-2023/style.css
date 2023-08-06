@@ -1,0 +1,14 @@
+  body{
+    background-color: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 139px;
+    height: 139px;
+    background: #0B2429;
+    rotate : 45deg;
+    translate : -45.5px;
+    box-shadow : 30px -30px #998235, 60px -60px #0B2429;
+  }
