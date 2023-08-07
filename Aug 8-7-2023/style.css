@@ -1,0 +1,22 @@
+body {
+  background-color: #6592cf;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0;
+}
+div {
+  width: 40px;
+  height: 169px;
+  background: #060f55;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 43px 43px 0;
+  border-bottom-right-radius: 20px;
+  padding: 38px;
+  position: absolute;
+  top: 80px;
+  rotate: -136deg;
+  border-color: #060f55;
+}
