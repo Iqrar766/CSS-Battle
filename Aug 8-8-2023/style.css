@@ -1,0 +1,25 @@
+
+  body{
+    background-color: #926927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+    background: #FFEBCB;
+    border-radius: 100rem 100rem 0 0;
+    rotate: 90deg;
+    position: absolute;
+    left: 150px;
+  }
+  .box1 {
+    width: 200px;
+    height: 100px;
+    background: #F8B140;
+    border-radius: 100rem 100rem 0 0;
+    rotate: -90deg;
+    position: absolute;
+    left: 50px;
+}
