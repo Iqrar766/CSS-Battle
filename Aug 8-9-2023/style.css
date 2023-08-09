@@ -1,0 +1,26 @@
+
+  body{
+    background-color: #F5D6B4;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0;
+    padding: 0;
+  }
+  #top {
+    width: 120%;
+    height: 53%;
+    background: #D86F45;
+    rotate : 15deg;
+    position: absolute;
+    top: 198;
+  }
+  #bottom {
+    width: 120%;
+    height: 53%;
+    background: #FFA885;
+    z-index: -1;
+    position: absolute;
+    rotate : -15deg;
+    top: 198;
+  }
