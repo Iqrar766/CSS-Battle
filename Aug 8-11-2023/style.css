@@ -1,0 +1,13 @@
+  body{
+    background: linear-gradient(to right, #62306D 
+    50%,#F7EC7D 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#F7EC7D 50%,#62306D 50%);
+  }
