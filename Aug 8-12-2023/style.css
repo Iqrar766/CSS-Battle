@@ -1,0 +1,22 @@
+  body{
+    background-color: #E3516E;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  #left{
+    width: 100px;
+    height: 100px;
+    background: #FADE8B;
+    position: absolute;
+    left:75;
+    box-shadow : 150px 200px #FADE8B;
+  }
+  #right{
+    width: 100px;
+    height: 150px;
+    background: #FADE8B;
+    position: absolute;
+    right:75;
+    box-shadow : -150px 150px #FADE8B;
+  }
