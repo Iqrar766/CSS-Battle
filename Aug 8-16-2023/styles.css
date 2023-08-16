@@ -1,0 +1,43 @@
+  body{
+    background-color: #F5D6B4;
+    display: grid;
+    place-items: center;
+    margin: 0;
+  }
+  .box {
+    width: 150px;
+    height: 150px;
+    background: #D86F45;
+    border-radius: 10px;
+    position: relative;
+  }
+  .left{
+    width: 60px;
+    height: 30px;
+    background-color: #F5D6B4;
+    position: absolute;
+    border-radius: 99px 99px 0 0 ;
+    rotate: 90deg;
+    right: 106;
+    top: 60;
+    box-shadow: 0px -150px #D86F45; 
+  }
+  .top{
+    width: 60px;
+    height: 30px;
+    background-color: #D86F45;
+    position: absolute;
+    bottom: 150px;
+    left:45px;
+    border-radius: 99px 99px 0 0 ;
+  }
+  .bottom{
+      width: 60px;
+    height: 30px;
+    background-color: #D86F45;
+    position: absolute;
+    border-radius: 99px 99px 0 0 ;
+    bottom:-30;
+    left:45px;
+    rotate: 180deg;
+  }
