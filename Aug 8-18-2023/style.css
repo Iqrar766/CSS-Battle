@@ -1,0 +1,12 @@
+  body{
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 180px;
+    height: 200px;
+    background: #F7EC7D;
+    clip-path: polygon(71% 0%,100% 100%,0 100%)
+  }
