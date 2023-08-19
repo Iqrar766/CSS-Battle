@@ -1,0 +1,26 @@
+  body{
+    background-color: #E3516E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    border: 15px solid #FADE8B;
+  }
+  #outer{
+    width: 130px;
+    height: 130px;
+    background: #E3516E;
+    rotate:45deg;
+  }
+  #inner{
+    width: 50px;
+    height: 50px;
+  }
+  #middle{
+    width: 90px;
+    height: 90px;
+  }
+  #inner,#middle{
+  translate: 25px 25px;
+  }
