@@ -1,0 +1,23 @@
+  body{
+    background-color: #6592CF;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .bottom, .bottom1{
+    width: 100px;
+    height: 150px;
+    background: #060F55;
+    border-radius: 0 0 70rem 70rem;
+  }
+  .bottom1{
+    position: absolute;
+    bottom: 0px;
+    left: 90;
+    border-radius: 70rem 70rem 0 0;
+  }
+  .bottom1{
+    box-shadow: 120px 0px #060F55;
+  }
