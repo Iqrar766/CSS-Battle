@@ -1,0 +1,16 @@
+  body{
+    background-color: #F5D6B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    background: #dd6b4d;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom left, #D86F45 50%,#F5D6B4 50%)
+  }
+  #bottom{
+    scale :  0.5;
+    translate: -50px 50px;
+  }
