@@ -1,0 +1,16 @@
+
+  body{
+    background-color:#4F77FF;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 120px 120px;
+    
+  }
+  div {
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 0 100%;
+  }
+  #top,#left{
+    rotate: 90deg
+  }
