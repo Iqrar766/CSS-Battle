@@ -1,0 +1,35 @@
+
+  body{
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #F7EC7D;
+    border: 20px solid #62306D;
+  }
+  #verticle{
+    width: 220px;
+    height: 60px;
+    background-color: #F7EC7D;
+    position: absolute;
+    top: 120;
+    left: 90;
+    z-index: -1;
+    border-radius: 30px
+  }
+   #horizontal{
+    width: 220px;
+    height: 60px;
+    background-color: #F7EC7D;
+    position: absolute;
+    top: 120;
+    left: 90;
+    rotate: 90deg;
+     z-index: -1;
+     border-radius: 30px
+  }
