@@ -1,0 +1,26 @@
+body {
+    background-color: #F0CD48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div {
+    width: 100px;
+    height: 80px;
+    background: #66284A;
+    position: relative;
+    bottom: 40px;
+}
+
+p {
+    position: absolute;
+    width: 20px;
+    height: 214px;
+    background-color: #66284A;
+}
+
+#left {
+    left: 80;
+}
