@@ -1,0 +1,27 @@
+body {
+    background-color: #F0CD48;
+    display: grid;
+    place-content: center;
+    gap: 10px;
+}
+
+#top {
+    width: 100px;
+    height: 50px;
+    background: #66284A;
+    border-radius: 20px 20px 0 0;
+}
+
+#middle {
+    width: 100px;
+    height: 100px;
+    background-color: #66284A;
+}
+
+#bottom {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #66284A;
+}
