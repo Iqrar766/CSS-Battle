@@ -1,0 +1,28 @@
+body {
+    background-color: #8D1C24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    width: 140px;
+    height: 140px;
+    background: conic-gradient(#EC9140 270deg, transparent 0deg);
+    border-radius: 50%;
+    rotate: 180deg;
+    position: relative;
+    bottom: 15px;
+    right: 50px;
+}
+
+#right {
+    width: 140px;
+    height: 140px;
+    background: conic-gradient(#EC9140 270deg, transparent 0deg);
+    border-radius: 50%;
+    position: absolute;
+    left: 180px;
+    top: 95px;
+    z-index: -1;
+}
