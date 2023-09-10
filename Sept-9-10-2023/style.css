@@ -1,0 +1,24 @@
+body {
+    background-color: #FEFAE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    background: #FEFAE3;
+    border: 40px solid #D4A469;
+}
+
+p {
+    width: 40px;
+    height: 159px;
+    background-color: #B17036;
+    position: absolute;
+    left: 100px;
+    top: 74;
+    box-shadow: 160px -39px #B17036;
+
+}
